@@ -1,4 +1,5 @@
-.calculator {
+.calculator 
+{
   width: 600px;
   margin: auto;
   padding: 10px;
@@ -8,7 +9,8 @@
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2), inset 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-#display {
+#display 
+{
   width: 96.5%;
   height: 60px;
   margin-bottom: 10px;
@@ -20,13 +22,15 @@
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
 }
 
-.buttons {
+.buttons 
+{
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 10px;
 }
 
-button {
+button 
+{
   width: 80px;
   height: 80px;
   font-size: 24px;
@@ -39,39 +43,40 @@ button {
   transition: all 0.3s ease;
 }
 
-button.clear-button{
+button.clear-button
+{
 background-color:lightblue;
 }
 
-button.calculate-button{
-/*width: 280px;
-  height: 80px;
-  border-radius: 40px;
-  margin-top: 5px; 
-  margin-bottom: 10px;
-  grid-column: 4 / span 3;*/ 
+button.calculate-button
+{
   background-color:lightblue;
 }
-button.delete-button{
+button.delete-button
+{
   background-color:#f46666;
 }
 
-button:hover {
+button:hover 
+{
   transform: scale(1.05);
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
 }
 
-button:active {
+button:active 
+{
   transform: scale(0.95);
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
 }
 
-button.operator {
+button.operator 
+{
   background-image: radial-gradient(circle at center, #ff8474, #e84a5f);
   color: #fff;
 }
 
-button.operator:hover {
+button.operator:hover 
+{
   background-image: radial-gradient(circle at center, #e84a5f, #ff8474);
 }
 
