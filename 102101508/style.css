@@ -80,6 +80,7 @@ button.operator:hover
   background-image: radial-gradient(circle at center, #e84a5f, #ff8474);
 }
 
-button.operator:active {
+button.operator:active 
+{
   background-image: radial-gradient(circle at center, #ff3c3c, #d73737);
 }
